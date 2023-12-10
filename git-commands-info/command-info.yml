@@ -8,3 +8,11 @@
 # To create feature branch
 4. git branch -b "feature/branch-name"
 5. git pull
+# Further step after resolve the conflict
+1. git rebase --continue
+2. git checkout main
+3. git merge feature/update-git-command-info
+4. git pull origin main
+5. git checkout feature/update-git-command-info
+6. git merge --no-ff feature/update-git-command-info
+7. git push origin main
