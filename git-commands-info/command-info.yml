@@ -4,7 +4,17 @@
 # To set the user name and email global
 2. git config --global --get user.name
 3. git config --global --get user.email
-<<<<<<< HEAD
 # To create feature branch
 4. git branch -b "feature/branch-name"
 5. git pull
+# Handle merge conflict
+## If you are working in a feature branch 
+1. git checkout main
+2. git pull origin main
+3. git checkout "feature-branch-name" # checkout to feature branch
+4. git rebase main 
+5. resolve conflict # you can resolve conflict by command editor or any other editor
+6. git add . # Once the conflict resolve
+7. git commit -m "commit message"
+8. git checkout main 
+9. git merge --no-ff "feature-branch"
