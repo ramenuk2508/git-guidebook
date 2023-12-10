@@ -1,0 +1,6 @@
+# Git command info
+# To initialize the git repo
+1. git init 
+# To set the user name and email global
+2. git config --global --get user.name
+3. git config --global --get user.email
