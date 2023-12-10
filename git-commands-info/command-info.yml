@@ -4,3 +4,5 @@
 # To set the user name and email global
 2. git config --global --get user.name
 3. git config --global --get user.email
+# To create feature branch
+4. git branch -b "feature/branch-name"
