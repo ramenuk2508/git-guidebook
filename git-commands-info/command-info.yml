@@ -22,3 +22,7 @@
 3. git merge feature/update-git-command-info
 4. git checkout feature/update-git-command-info
 5. git push origin main
+# Another way to pull the remote or latest if local changes can be discarded
+- remove the folder from your local repository
+- get the clone url not the http version
+- git to the folder location and clone
