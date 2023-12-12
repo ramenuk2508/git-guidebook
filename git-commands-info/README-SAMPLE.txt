@@ -1,1 +1,2 @@
 This is a sample readME file to show example of merge conflict
+another read me
