@@ -22,3 +22,7 @@
 3. git merge feature/update-git-command-info
 4. git checkout feature/update-git-command-info
 5. git push origin main
+# Removing the local feature branch
+- git branch -d <feature-branch-name>
+# Removing the remote feature branch 
+- git push origin --delete <branch-name>
